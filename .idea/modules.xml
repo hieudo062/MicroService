@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Gateway/Gateway.iml" filepath="$PROJECT_DIR$/Gateway/Gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MicroService.iml" filepath="$PROJECT_DIR$/.idea/MicroService.iml" />
       <module fileurl="file://$PROJECT_DIR$/PartnerService/PartnerService.iml" filepath="$PROJECT_DIR$/PartnerService/PartnerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectService/ProjectService.iml" filepath="$PROJECT_DIR$/ProjectService/ProjectService.iml" />
     </modules>
   </component>
 </project>
