@@ -10,8 +10,8 @@
         <module name="ProjectService" />
         <module name="PartnerService" />
         <module name="Eureka" />
-        <module name="Gateway" />
         <module name="InformationService" />
+        <module name="Gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

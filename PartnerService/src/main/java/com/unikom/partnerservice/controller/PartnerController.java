@@ -38,7 +38,7 @@ public class PartnerController {
     }
 
     @GetMapping()
-    public ResponseEntity<?> search(Pageable pageable) {
+    public ResponseEntity<?> findAll(Pageable pageable) {
         return new ResponseEntity<>(new SuccessResponsePage(1, partnerService.count(new Search()), partnerService.findAll(pageable)), HttpStatus.OK);
     }
 
