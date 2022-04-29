@@ -9,7 +9,7 @@ import java.util.List;
 @FeignClient(name = "partner-manage-service")
 public interface IPartnerController {
 
-    @GetMapping("/partner")
+    @GetMapping("/partner/findAll")
     List<PartneDTO> findAll();
 
     @GetMapping("/partner/1")

@@ -17,7 +17,7 @@ public class PartnerController {
     @Autowired
     private IPartnerController partnerController;
 
-    @GetMapping("/partner")
+    @GetMapping("/")
     public ResponseEntity<?> findAllParner() {
         return new ResponseEntity<>(partnerController.findAll(), HttpStatus.OK);
     }
